@@ -1,0 +1,88 @@
+#menuBottom {
+    position: absolute;
+    z-index: 9;
+    background-color: #464646;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 100px;
+}
+  
+#menuBottomheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#menu_click{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#menu_rotate{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+  
+  #menu_click .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    /* top: -5px; */
+    /* left: 10px; */
+  }
+  
+  #menu_click .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  #menu_click:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  #menu_rotate .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    /* top: -5px; */
+    /* left: 10px; */
+  }
+  
+  #menu_rotate .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  #menu_rotate:hover .tooltiptext {
+    visibility: visible;
+  }

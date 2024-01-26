@@ -1,0 +1,50 @@
+.ui-menu-click-room{
+    position: absolute ;
+    z-index: 0;
+}
+
+.menu-click-room {
+    width: 200px;
+  }
+  
+  .menu-click-room a {
+    background-color: rgb(90, 90, 90);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .menu-click-room a:hover {
+    background-color: rgb(46, 46, 46);
+  }
+
+  .modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+    visibility: hidden;
+    width: 30%;
+    height: 30%;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .modal-close {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+  }
+
+  

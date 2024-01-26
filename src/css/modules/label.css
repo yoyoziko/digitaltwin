@@ -1,0 +1,90 @@
+/* .labelRoom{
+    background-color: brown;
+    text-align: center;
+    font-size: 48px;
+} */
+
+.label_circle_red {
+    color: #FFF;
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50%;
+    background: rgba(209, 49, 0, 0.5);
+    cursor: pointer;
+}
+
+.label_square_blue {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+    background: rgba(40, 169, 255, 0.5);
+    cursor: pointer;
+    text-align: center;
+}
+
+.label_square_green {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+    background: rgba(2, 197, 35, 0.5);
+    cursor: pointer;
+    text-align: center;
+}
+
+.label_square_red {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+    background: rgba(209, 49, 0, 0.5);
+    cursor: pointer;
+    text-align: center;
+}
+
+.label_square_template {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    text-align: center;
+}
+
+.label-light{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.label_dark {
+    color: rgb(85, 85, 85);
+}
+
+.label_bright {
+    color: rgb(255, 208, 0);
+}
+
+/* .label_alert:hover {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background: rgba(240, 57, 1, 0.658);
+} */

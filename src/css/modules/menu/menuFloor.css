@@ -1,0 +1,40 @@
+#menuFloor {
+    position: absolute;
+    z-index: 9;
+    background-color: #464646;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 100px;
+}
+  
+#menuFloorheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#menu_floor1{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#menu_floor2{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#menu_floor3{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#menu_site{
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

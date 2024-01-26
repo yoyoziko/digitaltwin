@@ -1,0 +1,27 @@
+@import "modules/base.css";
+@import "modules/githubCorner.css";
+@import "modules/leftPanel.css";
+@import "modules/dat.gui.css";
+@import "modules/loadingScreen.css";
+@import "modules/cubeLoader.css";
+@import "modules/welcomeScreen.css";
+@import "modules/rightPanel.css";
+@import "modules/clickRoomMenu.css";
+@import "modules/label.css";
+@import "modules/popup_data.css";
+@import "modules/vc-toggle-switch.css";
+
+@import "modules/menu/menuObjectMode.css";
+@import "modules/menu/menuFloor.css";
+@import "modules/menu/menuLabel.css";
+@import "modules/menu/menusearchroom.css";
+@import "modules/menu/menuview.css";
+
+@import "modules/menu/bookmark.css";
+@import "modules/menu/playback.css";
+
+@import "modules/menu/settings.css";
+
+@import "modules/scitureport.css";
+@import "modules/cam.css";
+@import "modules/indoorEnv.css";

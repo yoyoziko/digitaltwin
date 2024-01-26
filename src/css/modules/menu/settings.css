@@ -1,0 +1,124 @@
+.header-settings{
+    left: 0;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.colorBox{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputRangeOfColor{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.inputRangeOfColor:hover{
+    color: #000000;
+}
+
+.ui-container-settingsEnvContentBox{
+	position: absolute;
+	top: 100px;
+	right: 500px;
+}
+
+#settingsEnvContentBox, #settingsOccuContentBox, #settingsReportContentBox {
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(36, 36, 36, 0.8);
+    /* text-align: center; */
+    border: 1px solid #d3d3d3;
+    width: 500px;
+    height: 500px;
+}
+  
+#settingsEnvContentBoxheader, #settingsOccuContentBoxheader, #settingsReportContentBoxheader {
+    padding: 10px;
+    cursor: move;
+    text-align: center;
+    z-index: 100;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.contentBox{
+    padding: 10px;
+    /* overflow: scroll; */
+    
+}
+
+.boxOfOneEntryOfIndoorSettings{
+    padding: 10px;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.fieldOfIndoorEnvironment{
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+.colorBox .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: -125px;
+    /* top: -5px; */
+    /* left: 10px; */
+  }
+  
+  .colorBox .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .colorBox:hover .tooltiptext{
+    visibility: visible;
+  }
+
+  .notiToggleIndoor{
+      cursor: pointer;
+      font-size: 28px;
+      color: rgb(80, 80, 80);
+  }
+
+  .rowSettingIndoor{
+      display: flex;
+      justify-content: flex-start;
+      padding: 2px 0;
+  }
+
+  .rowSettingIndoorFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rowSettingIndoor div{
+      margin-right: 10px;
+  }

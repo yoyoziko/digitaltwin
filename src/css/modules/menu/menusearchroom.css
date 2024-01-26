@@ -1,0 +1,30 @@
+#menu_search_room {
+    position: absolute;
+    z-index: 9;
+    background-color: #464646;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 200px;
+}
+  
+#menu_search_roomheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#selected_room_search {
+    /* appearance: none; */
+    /* background-color: transparent; */
+    border: none;
+    padding: 3px;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+

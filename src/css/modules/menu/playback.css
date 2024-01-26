@@ -1,0 +1,36 @@
+#ui-container-playback {
+	position: absolute;
+	bottom: 100px;
+	display: block;
+}
+
+.playbackBox{
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+#playbackBtn{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.slider{
+    width: 500px;
+}
+
+.playbackSpeed{
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #a8a8a8;
+}
+
+.activePlaybackSpeed{
+    background-color: #ffc31f; 
+}

@@ -1,0 +1,21 @@
+#plotly_pie_status {
+    fill: #ffffff;
+    text-shadow: none;
+}
+
+.text_active_in_pie{
+    fill: rgb(255, 238, 82);
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #000, 0px 1px 3px #000;
+}
+.text_total_in_pie{
+    fill: #ffffff;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #000, 0px 1px 3px #000;
+}
+
+.text_des_in_pie{
+    fill: #ffffff;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #000, 0px 1px 3px #000;
+}
